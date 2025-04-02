@@ -50,7 +50,7 @@ footer {
 body {
     background-image: radial-gradient(#dfdfdf13 10%, transparent 1%),
         radial-gradient(#ffffff0c 20%, transparent 20%);
-    background-color: #ffa90a;
+    background-color: #ffffff;
     background-position: 0 0, 50px 50px;
     background-size: 40px 40px;
 
@@ -58,7 +58,7 @@ body {
 
 h1 {
 
-    background: orange;
+    background: rgb(81, 255, 0);
     background: linear-gradient(to right, rgb(255, 255, 255) 0%, rgb(182, 214, 255) 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
