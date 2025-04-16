@@ -1,0 +1,80 @@
+h1, h2, h3 {
+    
+    color:  #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 2em;
+    
+
+}
+
+
+p{
+    
+    font-family: "Inter", sans-serif;
+    line-height: 130%;
+    font-size: 1em;
+    
+}
+
+a:link{
+
+color: #000000;
+
+}
+
+body {
+
+    background-image: url("../images/backtexture.jpg");
+    
+    background-repeat: repeat;
+   
+    
+
+}
+
+
+a:hover{
+
+    color: #ff0000;
+
+    
+}
+img.burger{
+
+    width: 30%;
+    height: 30%;
+    transition: transform .2s;
+}
+
+img:hover{
+
+    transform: scale(1.2);
+
+}
+
+#foot{
+
+    text-decoration: underline;
+
+}
+
+
+
+footer{
+
+text-align: center;
+
+text-transform: uppercase;
+
+background-color: #ffbf00;
+
+
+
+}
+
+ul#MainNav{
+
+    list-style-type: none;
+
+}
