@@ -1,3 +1,9 @@
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 h1, h2, h3 {
     
     color:  #000000;
@@ -9,6 +15,20 @@ h1, h2, h3 {
 }
 
 
+#maincontent{
+
+
+margin-top: 10%;
+
+
+
+}
+
+.columns {float:left;}
+.col-1 {width: 33%;}
+.col-2 {width: 25%;}
+
+
 p{
     
     font-family: "Inter", sans-serif;
@@ -17,9 +37,29 @@ p{
     
 }
 
+.header{
+
+    margin: auto;
+
+    width: auto;
+    
+    padding: auto;
+    
+
+}
+
+
 a:link{
 
 color: #000000;
+
+}
+
+.wrapper{
+
+width: 80%;
+margin: auto;
+
 
 }
 
@@ -29,6 +69,7 @@ body {
     
     background-repeat: repeat;
    
+    z-index: -10;
     
 
 }
@@ -69,6 +110,13 @@ text-transform: uppercase;
 
 background-color: #ffbf00;
 
+position: fixed;
+
+left: 0;
+
+bottom: 0;
+
+width: 100%;
 
 
 }
@@ -76,5 +124,15 @@ background-color: #ffbf00;
 ul#MainNav{
 
     list-style-type: none;
+
+}
+
+.MainNav{
+
+    margin: 80%;
+
+    width: 80%;
+    
+    padding: 80%;
 
 }
