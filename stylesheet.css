@@ -18,7 +18,7 @@ h1, h2, h3 {
 #maincontent{
 
 
-margin-top: 10%;
+margin-top: 5%;
 
 
 
@@ -39,12 +39,9 @@ p{
 
 .header{
 
-    margin: auto;
-
-    width: auto;
+margin-top: 3%;
     
-    padding: auto;
-    
+margin-bottom: 3%;
 
 }
 
@@ -65,6 +62,8 @@ margin: auto;
 
 body {
 
+    
+
     background-image: url("../images/backtexture.jpg");
     
     background-repeat: repeat;
@@ -83,8 +82,8 @@ a:hover{
 }
 img.burger{
 
-    width: 30%;
-    height: 30%;
+    width: 50%;
+    height: 50%;
     transition: transform .2s;
 }
 
