@@ -19,14 +19,15 @@ h1, h2, h3 {
 
 
 margin-top: 5%;
-
+margin-bottom: 8em;
 
 
 }
 
 .columns {float:left;}
-.col-1 {width: 33%;}
-.col-2 {width: 25%;}
+.col-10 {width: 100%;}
+.col-1 {width: 50%;}
+
 
 
 p{
@@ -70,6 +71,7 @@ body {
    
     z-index: -10;
     
+   
 
 }
 
@@ -135,3 +137,11 @@ ul#MainNav{
     padding: 80%;
 
 }
+
+@media only screen and (max-width: 979px) {
+    .bioimage {
+      display: none;
+    }
+
+    .col-1 {width: 100%;}
+  } 
