@@ -138,6 +138,8 @@ ul#MainNav{
 
 }
 
+/* for mobile */
+
 @media only screen and (max-width: 979px) {
     .bioimage {
       display: none;
