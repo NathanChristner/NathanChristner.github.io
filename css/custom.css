@@ -1,0 +1,35 @@
+
+header .twelve.columns {
+    text-align: center;
+}
+
+
+footer .twelve.columns {
+    text-align: center;
+}
+
+
+nav ul li {
+    text-align: center;
+
+    list-style-type: none; 
+    margin-bottom: 5%;     
+}
+
+nav ul {
+    padding-left: 0;
+    list-style-type: none; 
+}
+
+
+
+body {
+    padding-top: 1%;  
+
+} 
+
+.contentmain {
+
+    margin-bottom: 5%;   
+
+}
