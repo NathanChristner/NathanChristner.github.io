@@ -55,7 +55,7 @@ body {
 
 
 p, h3, h2 {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .imagetext {
@@ -84,14 +84,30 @@ p, h3, h2 {
   transition: opacity 0.35s ease, 
   transform 0.3s ease;
 
-
+filter: blur(8px);
 
 
 }
 
+
+
+
 .container:hover {
   opacity: 1;
   transform: scale(1);
+  animation: blur 0.5s ease-in-out forwards;
+
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(8px);
+  
+  }
+  100% {
+    filter: blur(0px);
+
+  }
 }
 
 
