@@ -162,14 +162,14 @@ filter: blur(8px);
     .container:hover {
     opacity: 1;
     transform: scale(1);
-
+   filter: blur(0px);
 
 }
 
     .container{
     opacity: 1;
     transform: scale(1);
-
+   filter: blur(0px);
 
 }
 
