@@ -55,7 +55,7 @@ body {
 
 
 p, h3, h2 {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .imagetext {
@@ -68,7 +68,26 @@ p, h3, h2 {
 }
 
 
+@keyframes fadein {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
 
+.container {
+  max-width: 1600px;
+  width: 100%;
+
+  opacity: 0.2;
+  transform: scale(0.95);
+  transition: opacity 0.35s ease, 
+  transform 0.3s ease;
+
+
+
+
+}
 
 .container:hover {
   opacity: 1;
